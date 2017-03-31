@@ -11,10 +11,10 @@ import java.util.stream.Collectors;
 public class FirstTask {
 
     /**
-     * Method takes list of doubles and return theirs exponents which are lower the 64
+     * Method takes list of doubles and return theirs square exponents which are lower then 64
      * uses steam api
      */
-    public List<Double> getNaturalNumbersExponentsLessThan64(List<Double> naturalNumbers) {
+    public List<Double> getNaturalNumbersSquareExponentsLessThan64(List<Double> naturalNumbers) {
 
         return naturalNumbers.stream()
                 .map(number -> Math.pow(number, 2))
@@ -23,10 +23,10 @@ public class FirstTask {
     }
 
     /**
-     * Method takes list of doubles and return theirs exponents which are lower the 64
+     * Method takes list of doubles and return theirs square exponents which are lower then 64
      * with high performence
      */
-    public List<Double> getNaturalNumbersExponentsLessThan64HighPerformence(List<Double> naturalNumbers) {
+    public List<Double> getNaturalNumbersSquareExponentsLessThan64HighPerformence(List<Double> naturalNumbers) {
 
         List<Double> exponentsNumbers = new LinkedList<>();
 

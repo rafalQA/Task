@@ -26,14 +26,14 @@ public class FirstTaskTest {
 
     @Test
     public void testGetNaturalNumbersExponentsLessThan64() {
-        List<Double> actualExponents = firstTask.getNaturalNumbersExponentsLessThan64(inNumbers);
+        List<Double> actualExponents = firstTask.getNaturalNumbersSquareExponentsLessThan64(inNumbers);
 
         Assert.assertEquals(expectedNumbers, actualExponents);
     }
 
     @Test
     public void testGetNaturalNumbersExponentsLessThan64HighPerformence() {
-        List<Double> actualExponents = firstTask.getNaturalNumbersExponentsLessThan64HighPerformence(inNumbers);
+        List<Double> actualExponents = firstTask.getNaturalNumbersSquareExponentsLessThan64HighPerformence(inNumbers);
 
         Assert.assertEquals(expectedNumbers, actualExponents);
     }
